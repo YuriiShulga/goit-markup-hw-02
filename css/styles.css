@@ -1,5 +1,6 @@
 :root {
   --background-color: #ffffff;
+  --logo-color: #4d5ae5;
 }
 
 body {
@@ -30,6 +31,7 @@ body {
   order: 1;
   flex-grow: 0;
   line-height: 1.17;
+  text-decoration: none;
 }
 
 .header-web {
@@ -41,7 +43,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
   flex: none;
   order: 0;
   flex-grow: 0;
