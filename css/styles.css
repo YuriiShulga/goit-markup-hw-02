@@ -23,6 +23,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  line-height: 1.17;
 }
 
 .header-web {
@@ -121,6 +122,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
 .hero-btn:hover,
