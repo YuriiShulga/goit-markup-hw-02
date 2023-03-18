@@ -17,6 +17,21 @@ body {
 .header-navigation {
 }
 
+.header-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -31,22 +46,6 @@ body {
   order: 1;
   flex-grow: 0;
   line-height: 1.17;
-  text-decoration: none;
-}
-
-.header-web {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--logo-color);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .header-list {
@@ -69,6 +68,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .address-list {
