@@ -47,6 +47,7 @@ body {
   order: 1;
   flex-grow: 0;
   line-height: 1.17;
+  text-decoration: none;
 }
 
 .header-list {
