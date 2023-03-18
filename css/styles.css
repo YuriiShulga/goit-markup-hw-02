@@ -2,6 +2,8 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* ---------------------HEADER---------------------- */
+
 .header {
 }
 
@@ -9,6 +11,33 @@ body {
 }
 
 .header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.header-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .header-list {
@@ -25,6 +54,20 @@ body {
   color: #2e2f42;
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+}
+
+.address-list {
+}
+
+.address-item {
+}
+
 .header-mail {
   font-style: normal;
   font-weight: 400;
@@ -34,6 +77,11 @@ body {
   color: #434455;
 }
 
+.header-mail:hover,
+.header-mail:focus {
+  color: #404bbf;
+}
+
 .header-tel {
   font-style: normal;
   font-weight: 400;
@@ -41,4 +89,86 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: #404bbf;
+}
+
+/* ---------------------HERO---------------------- */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #404bbf;
+}
+
+/* ---------------------ADVANTAGES---------------------- */
+
+.advantages {
+}
+
+.advantages-title {
+}
+
+.advantages-list {
+}
+
+.list {
+}
+
+.advantages-item {
+}
+
+.advantages-title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ---------------------PRODUCT---------------------- */
+
+.product {
+}
+.product-title {
+}
+.product-list {
+}
+.list2 {
+}
+.product-item {
 }
