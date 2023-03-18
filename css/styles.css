@@ -1,5 +1,11 @@
+:root {
+  --background-color: #ffffff;
+}
+
 body {
   font-family: Roboto, sans-serif;
+  background-color: var(--background-color);
+  color: #434455;
 }
 
 /* ---------------------HEADER---------------------- */
