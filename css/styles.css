@@ -134,6 +134,7 @@ body {
 }
 
 .advantages-title {
+  visibility: hidden;
 }
 
 .advantages-list {
