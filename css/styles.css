@@ -293,3 +293,22 @@ body {
   background-color: var(--brand-color);
   color: var(--background-color);
 }
+
+/* ---------------------CATEGORY---------------------- */
+
+.category-list {
+  list-style: none;
+}
+
+.category-item {
+}
+
+.category-link {
+  text-decoration: none;
+}
+
+.category-name {
+}
+
+.category-text {
+}
