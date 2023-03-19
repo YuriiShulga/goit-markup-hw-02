@@ -2,6 +2,7 @@
   --background-color: #ffffff;
   --logo-color: #4d5ae5;
   --address-color: #434455;
+  --footer-background-color: #2e2f42;
 }
 
 body {
@@ -237,6 +238,14 @@ body {
 }
 
 /* ---------------------FOOTER---------------------- */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
 
 .footer-offer {
   font-weight: 400;
