@@ -1,6 +1,7 @@
 :root {
   --background-color: #ffffff;
   --logo-color: #4d5ae5;
+  --address-color: #434455;
 }
 
 body {
@@ -50,6 +51,7 @@ body {
 }
 
 .header-list {
+  list-style: none;
 }
 
 .header-item {
@@ -75,18 +77,18 @@ body {
 }
 
 .address-list {
+  list-style: none;
 }
 
 .address-item {
 }
 
 .header-mail {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--address-color);
+  text-decoration: none;
 }
 
 .header-mail:hover,
@@ -95,12 +97,11 @@ body {
 }
 
 .header-tel {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--address-color);
+  text-decoration: none;
 }
 
 .header-tel:hover,
