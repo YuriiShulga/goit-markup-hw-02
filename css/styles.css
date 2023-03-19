@@ -2,6 +2,7 @@
   --background-color: #ffffff;
   --logo-color: #4d5ae5;
   --address-color: #434455;
+  --hero-btn-color: #4d5ae5;
 }
 
 body {
@@ -129,17 +130,16 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  text-align: center;
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: var(--hero-btn-color);
+  color: #ffffff;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404bbf;
+  color: var(--hero-btn-color);
 }
 
 /* ---------------------ADVANTAGES---------------------- */
