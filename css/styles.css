@@ -133,7 +133,7 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-  background-color: var(--hero-btn-color);
+  background-color: #4d5ae5;
   color: #ffffff;
 }
 
