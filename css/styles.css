@@ -132,13 +132,13 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   color: #ffffff;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* ---------------------ADVANTAGES---------------------- */
