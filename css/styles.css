@@ -83,7 +83,7 @@ body {
 .address-item {
 }
 
-.header-mail {
+.header-contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -91,12 +91,12 @@ body {
   text-decoration: none;
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: #404bbf;
 }
 
-.header-tel {
+.header-contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -104,8 +104,8 @@ body {
   text-decoration: none;
 }
 
-.header-tel:hover,
-.header-tel:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: #404bbf;
 }
 
