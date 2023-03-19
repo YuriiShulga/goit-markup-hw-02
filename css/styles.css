@@ -2,7 +2,6 @@
   --background-color: #ffffff;
   --logo-color: #4d5ae5;
   --address-color: #434455;
-  --hero-btn-color: #404bbf;
 }
 
 body {
@@ -139,7 +138,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--hero-btn-color);
+  color: #404bbf;
 }
 
 /* ---------------------ADVANTAGES---------------------- */
