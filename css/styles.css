@@ -3,6 +3,9 @@
   --logo-color: #4d5ae5;
   --address-color: #434455;
   --footer-background-color: #2e2f42;
+  --white-button-portfolio: #f4f4fd;
+  --button-portfolio-color: #4d5ae5;
+  --brand-color: #404bbf;
 }
 
 body {
@@ -152,6 +155,7 @@ body {
 }
 
 .advantages-list {
+  list-style: none;
 }
 
 .advantages-item {
@@ -188,6 +192,7 @@ body {
 }
 
 .product-list {
+  list-style: none;
 }
 
 .list {
@@ -213,6 +218,7 @@ body {
 }
 
 .team-list {
+  list-style: none;
 }
 
 .team-item {
@@ -264,10 +270,26 @@ body {
 }
 
 .section-list {
+  list-style: none;
 }
 
 .section-item {
 }
 
 .section-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--white-button-portfolio);
+  color: var(--button-portfolio-color);
+}
+
+.section-button:hover,
+.section-button:focus {
+  background-color: var(--brand-color);
+  color: var(--background-color);
 }
