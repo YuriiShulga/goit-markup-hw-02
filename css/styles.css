@@ -197,11 +197,11 @@ body {
 
 /* ---------------------TEAM---------------------- */
 
-.Team {
+.team {
   background-color: #f4f4fd;
 }
 
-.Team-title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -211,13 +211,13 @@ body {
   color: #2e2f42;
 }
 
-.Team-list {
+.team-list {
 }
 
-.Team-item {
+.team-item {
 }
 
-.Team-name {
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -226,7 +226,7 @@ body {
   color: #2e2f42;
 }
 
-.Team-text {
+.team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
